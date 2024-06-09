@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>LavelRentCar - Dashboard</title>
+        <title>abc - Dashboard</title>
 
         <!-- Custom fonts for this template-->
         <link href="{{asset('backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -36,7 +36,6 @@
                 <!-- Main Content -->
                 <div id="content">
 
-                    <!-- Topbar -->
                     <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                         <!-- Sidebar Toggle (Topbar) -->
@@ -72,50 +71,7 @@
 
                             <div class="topbar-divider d-none d-sm-block"></div>
 
-                            <!-- Nav Item - User Information -->
-                            <li class="nav-item dropdown no-arrow">
-                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
-                                    <i class="fa fa-user-circle" aria-hidden="true"></i>
-                                </a>
-                                <!-- Dropdown - User Information -->
-                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                                    <a class="dropdown-item" href="profile" data-toggle="modal" data-target="#exampleModal">
-                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                        Profile
-                                    </a>
-
-                                    <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" onclick="document.getElementById('logout-form-dropdown').submit()" href="#">
-                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                            Logout
-                                        </a>
-                                    </div>
-
-                                    <!-- Logout Form - Dropdown -->
-                                    <form id="logout-form-dropdown" action="{{ route('logout') }}" method="post" class="d-none">
-                                        @csrf
-                                    </form>
-
-                                    <!-- Dropdown - User Information -->
-                                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                                        <a class="dropdown-item" href="#" id="profile-link">
-                                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                            Profile
-                                        </a>
-
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" onclick="document.getElementById('logout-form-dropdown').submit()" href="#">
-                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                            Logout
-                                        </a>
-                                    </div>
-
-                                    <!-- Logout Form - Dropdown -->
-                                    <form id="logout-form-dropdown" action="{{ route('logout') }}" method="post" class="d-none">
-                                        @csrf
-                                    </form>
+                            
 
                                     <!-- Modal -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

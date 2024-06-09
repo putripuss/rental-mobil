@@ -2,9 +2,9 @@
 
 @section('content')
     <!-- Header-->
-    <header class="bg-dark py-5">
+    <header class="py-1" style="background-color: #add8e6;">
       <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
+        <div class="text-center text-black">
           <h1 class="display-4 fw-bolder">Kontak Kami</h1>
         </div>
       </div>
@@ -86,13 +86,11 @@
                   </div>
                 </div>
                 <div class="input-submit form-group">
-                  <button
-                    type="submit"
-                    style="height: 50px; width: 400px; margin: 0 auto"
-                    class="d-block btn btn-primary"
-                  >
-                    Kirim Pesan
-                  </button>
+                <button type="submit" style="height: 50px; width: 400px; margin: 0 auto" class="d-block btn btn-primary">
+    Kirim Pesan
+</button>
+
+
                 </div>
               </form>
             </div>

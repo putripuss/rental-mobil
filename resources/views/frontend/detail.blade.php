@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('content')
-<header class="bg-dark py-5">
+<header class="py-1" style="background-color: #add8e6;">
       <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
+        <div class="text-center text-black">
           <h1 class="display-4 fw-bolder">Detail Mobil</h1>
         </div>
       </div>

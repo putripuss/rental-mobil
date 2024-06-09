@@ -5,7 +5,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">LavelRent <sup>Car</sup></div>
+                <div class="sidebar-brand-text mx-3">abc</div>
             </a>
 
             <!-- Divider -->
@@ -34,14 +34,14 @@
             </li>
 
             <li class="nav-item active">
-                <a class="nav-link" onclick="document.getElementById('logout-form').submit()" href="#">
-                <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    <span>Logout</span>
-                </a>
-                <form id="logout-form" action="{{ route('logout') }}" method="post">
-                    @csrf
-                </form>
-            </li>
+            <a class="nav-link" onclick="document.getElementById('logout-form').submit()" href="#">
+                <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+                <span>Logout</span>
+            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="post" style="display: none;">
+                @csrf
+            </form>
+        </li>
 
 
         </ul>

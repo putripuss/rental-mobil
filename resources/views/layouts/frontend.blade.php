@@ -35,7 +35,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container px-4 px-lg-12">
-        <a class="navbar-brand" href="{{route('homepage')}}">LavelRentCar</a>
+        <a class="navbar-brand" href="{{route('homepage')}}">abc</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -61,9 +61,9 @@
     </nav>
     <!-- Header-->
     @yield('content')
-    <footer class="py-3 bg-dark fixed-bottom">
+    <footer class="py-5" style="background-color: #add8e6;">
     <div class="container">
-        <p class="m-0 text-center text-white">
+        <p class="m-0 text-center text-black">
             Copyright &copy; Putri Puspita Anindita 2024
         </p>
     </div>
